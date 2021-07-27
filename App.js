@@ -6,6 +6,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
+      <Text>I hope it works...</Text>
+      <Text style={[styles.firstText]}>It works!</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -18,4 +20,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  firstText: {
+    color: '#9C27B0',
+    fontSize: 20,
+  }
 });
