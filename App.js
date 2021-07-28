@@ -7,8 +7,11 @@ export default function App() {
     <View style={styles.container}>
       <Text style={[styles.firstText]}>Let's Go !</Text>
       <Button
+        buttonStyle={styles.button}
         title="Cliquez moi..."
-        onPress={() => Alert.alert('Mon gars Edo ;)')}
+        onPress={() => Alert.alert('Mon gars Edo ;) ça c\'\est ta passion')}
+        color="#FFC501"
+      //  backgroundColor="#000000"
       />
       <StatusBar style="auto" />
     </View>
@@ -26,5 +29,11 @@ const styles = StyleSheet.create({
     color: '#FFC501',
     fontSize: 30,
     backgroundColor: '#BC0BFF',
-  }
+  },
+  button: {
+    backgroundColor: '#000000', 
+    borderColor: '#000000',
+    borderWidth: 5,
+    borderRadius: 15
+  },
 });
