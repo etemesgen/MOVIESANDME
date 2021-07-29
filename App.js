@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, Button, Alert } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={[styles.firstText]}>Let's Go !</Text>
+      <Text style={[styles.firstText]}>je peut developper meme facebook </Text>
       <Button
         buttonStyle={styles.button}
         title="Cliquez moi..."
