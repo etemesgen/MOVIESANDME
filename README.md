@@ -2,7 +2,7 @@
 
 ## Description
 
-- Project done with react-native for mobile apps
+- Project done with ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 ## Concept
 
